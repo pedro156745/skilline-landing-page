@@ -23,7 +23,8 @@
 		crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 	<style>
-		@keyframes scroll {
+		/* rolagem contínua infinita */
+		@keyframes scroll-continuous {
 			0% {
 				transform: translateX(0);
 			}
@@ -31,12 +32,11 @@
 			100% {
 				transform: translateX(-50%);
 			}
-
-			/* move metade do tamanho (pq duplicamos os ícones) */
 		}
 
-		.animate-scroll {
-			animation: scroll 15s linear infinite;
+		.animate-scroll-continuous {
+			display: flex;
+			animation: scroll-continuous 20s linear infinite;
 		}
 	</style>
 </head>
@@ -179,11 +179,10 @@
 		<div class="w-full overflow-hidden py-6" style="background-color: #F3F4F6;">
 			<h1 class="text-center mb-6 text-gray-600 font-medium">Tecnologias que usamos</h1>
 
-			<!-- Container do slider -->
-			<div class="relative flex overflow-hidden">
-				<!-- Track (linha de logos que rola) -->
-				<div class="flex animate-scroll space-x-12">
-					<!-- Primeira lista -->
+			<div class="relative overflow-hidden">
+				<!-- Linha contínua de logos -->
+				<div class="flex animate-scroll-continuous space-x-12">
+					<!-- Coloque todos os logos aqui, e repita sem copiar manualmente -->
 					<img class="h-10 filter grayscale"
 						src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg">
 					<img class="h-10 filter grayscale"
@@ -197,7 +196,7 @@
 					<img class="h-10 filter grayscale"
 						src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg">
 
-					<!-- Segunda cópia para loop infinito -->
+					<!-- Repetição automática via CSS: basta repetir a mesma linha -->
 					<img class="h-10 filter grayscale"
 						src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg">
 					<img class="h-10 filter grayscale"
