@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Skilline Landing Page</title>
+	<title>AnphaWeb - Desenvolvimento de Sites e Sistemas</title>
 	<!-- Tailwind -->
 	<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 	<!-- Alpine -->
@@ -25,7 +25,7 @@
         <div class="flex flex-col max-w-screen-xl px-8 mx-auto md:items-center md:justify-between md:flex-row">
             <div class="flex flex-row items-center justify-between py-6">
                 <div class="relative md:mt-8">
-                    <a href="#" class="text-lg relative z-50 font-bold tracking-widest text-white rounded-lg focus:outline-none focus:shadow-outline">Skilline</a>
+                    <a href="#" class="text-lg relative z-50 font-bold tracking-widest text-white rounded-lg focus:outline-none focus:shadow-outline">AnphaWeb</a>
                     <svg class="h-11 z-40 absolute -top-2 -left-3" viewBox="0 0 79 79" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M35.2574 2.24264C37.6005 -0.100501 41.3995 -0.100505 43.7426 2.24264L76.7574 35.2574C79.1005 37.6005 79.1005 41.3995 76.7574 43.7426L43.7426 76.7574C41.3995 79.1005 37.6005 79.1005 35.2574 76.7574L2.24264 43.7426C-0.100501 41.3995 -0.100505 37.6005 2.24264 35.2574L35.2574 2.24264Z" fill="#F48C06"/>
                     </svg>
@@ -39,11 +39,11 @@
             </div>
             <nav :class="{ 'transform md:transform-none': !open, 'h-full': open }" class="h-0 md:h-auto flex flex-col flex-grow md:items-center pb-4 md:pb-0 md:flex md:justify-end md:flex-row origin-top duration-300 scale-y-0">
                 <a class="px-4 py-2 mt-2 text-sm bg-transparent rounded-lg md:mt-8 md:ml-4 text-light hover:text-white focus:outline-none focus:shadow-outline" href="#">Home</a>
-                <a class="px-4 py-2 mt-2 text-sm bg-transparent rounded-lg md:mt-8 md:ml-4 text-light hover:text-white focus:outline-none focus:shadow-outline" href="#">Careers</a>
-                <a class="px-4 py-2 mt-2 text-sm bg-transparent rounded-lg md:mt-8 md:ml-4 text-light hover:text-white focus:outline-none focus:shadow-outline" href="#">Blog</a>
-                <a class="px-4 py-2 mt-2 text-sm bg-transparent rounded-lg md:mt-8 md:ml-4 text-light hover:text-white focus:outline-none focus:shadow-outline" href="#">About Us</a>
-                <a class="px-10 py-3 mt-2 text-sm text-center bg-white text-darken rounded-full md:mt-8 md:ml-4" href="#">Login</a>
-                <a class="btn-modern md:mt-8 md:ml-4" href="#">Sign Up</a>
+                <a class="px-4 py-2 mt-2 text-sm bg-transparent rounded-lg md:mt-8 md:ml-4 text-light hover:text-white focus:outline-none focus:shadow-outline" href="#">Serviços</a>
+                <a class="px-4 py-2 mt-2 text-sm bg-transparent rounded-lg md:mt-8 md:ml-4 text-light hover:text-white focus:outline-none focus:shadow-outline" href="#">Portfólio</a>
+                <a class="px-4 py-2 mt-2 text-sm bg-transparent rounded-lg md:mt-8 md:ml-4 text-light hover:text-white focus:outline-none focus:shadow-outline" href="#">Sobre Nós</a>
+                <a class="px-10 py-3 mt-2 text-sm text-center bg-white text-darken rounded-full md:mt-8 md:ml-4" href="#">Contato</a>
+                <a class="btn-modern md:mt-8 md:ml-4" href="#">Orçamento Grátis</a>
             </nav>
         </div>
     </div>
@@ -52,12 +52,12 @@
 			<!--Left Col-->
 			<div class="flex flex-col w-full lg:w-6/12 justify-center lg:pt-24 items-start text-center lg:text-left mb-5 md:mb-0">
 				<h1 data-aos="fade-right" data-aos-once="true" class="my-4 text-5xl font-bold leading-tight text-white">
-					<span class="text-primary">Studying</span> Online is now much easier
+					Transforme sua <span class="text-primary">Presença Digital</span> com a AnphaWeb
 				</h1>
-				<p data-aos="fade-down" data-aos-once="true" data-aos-delay="300" class="leading-normal text-2xl mb-8 text-light">Skilline is an interesting platform that will teach you in more an interactive way</p>
+				<p data-aos="fade-down" data-aos-once="true" data-aos-delay="300" class="leading-normal text-2xl mb-8 text-light">Desenvolvemos sites e sistemas personalizados que impulsionam seu negócio, conectam você aos seus clientes e otimizam suas operações.</p>
 				<div data-aos="fade-up" data-aos-once="true" data-aos-delay="700" class="w-full md:flex items-center justify-center lg:justify-start md:space-x-5">
 					<button class="btn-modern lg:mx-0">
-						Join for free
+						Ver Nossos Serviços
 					</button>
 					<div class="flex items-center justify-center space-x-3 mt-5 md:mt-0 focus:outline-none transform transition hover:scale-110 duration-300 ease-in-out">
 						<button class="bg-white w-14 h-14 rounded-full flex items-center justify-center">
@@ -65,7 +65,7 @@
 								<path d="M22.5751 12.8097C23.2212 13.1983 23.2212 14.135 22.5751 14.5236L1.51538 27.1891C0.848878 27.5899 5.91205e-07 27.1099 6.25202e-07 26.3321L1.73245e-06 1.00123C1.76645e-06 0.223477 0.848877 -0.256572 1.51538 0.14427L22.5751 12.8097Z" fill="#F48C06"/>
 							</svg>
 						</button>
-						<span class="cursor-pointer text-light">Watch how it works</span>
+						<span class="cursor-pointer text-light">Solicitar Orçamento</span>
 					</div>
 				</div>
 			</div>
@@ -103,7 +103,7 @@
 
 		<!-- trusted by -->
 		<div class="max-w-4xl mx-auto">
-			<h1 class="text-center mb-3 text-gray-400 font-medium">Trusted by 5,000+ Companies Worldwide</h1>
+			<h1 class="text-center mb-3 text-gray-400 font-medium">Parceiros que Confiam na AnphaWeb</h1>
 			<div class="grid grid-cols-3 lg:grid-cols-6 gap-4 justify-items-center">
 				<img class="h-7" src="img/company/google.svg">
 				<img class="h-7" src="img/company/netflix.svg">
@@ -116,8 +116,8 @@
 
 		<!-- All-In-One Cloud Software. -->
 		<div data-aos="flip-up" class="max-w-xl mx-auto text-center mt-24">
-			<h1 class="font-bold text-darken my-3 text-2xl">All-In-One <span class="text-primary">Cloud Software.</span></h1>
-			<p class="leading-relaxed text-gray-500">Skilline is one powerful online software suite that combines all the tools needed to run a successful school or office.</p>
+			<h1 class="font-bold text-darken my-3 text-2xl">Soluções Digitais <span class="text-primary">Completas</span> para o Seu Negócio</h1>
+			<p class="leading-relaxed text-gray-500">Na AnphaWeb, oferecemos um conjunto robusto de serviços de desenvolvimento web e de sistemas, projetados para atender às necessidades específicas da sua empresa.</p>
 		</div>
 		<!-- card -->
 		<div class="grid md:grid-cols-3 gap-14 md:gap-5 mt-20">
@@ -127,8 +127,8 @@
 						<path d="M24.75 23H8.25V28.75H24.75V23ZM32.3984 9.43359L23.9852 0.628906C23.5984 0.224609 23.0742 0 22.5242 0H22V11.5H33V10.952C33 10.3859 32.7852 9.83789 32.3984 9.43359ZM19.25 12.2188V0H2.0625C0.919531 0 0 0.961328 0 2.15625V43.8438C0 45.0387 0.919531 46 2.0625 46H30.9375C32.0805 46 33 45.0387 33 43.8438V14.375H21.3125C20.1781 14.375 19.25 13.4047 19.25 12.2188ZM5.5 6.46875C5.5 6.07164 5.80766 5.75 6.1875 5.75H13.0625C13.4423 5.75 13.75 6.07164 13.75 6.46875V7.90625C13.75 8.30336 13.4423 8.625 13.0625 8.625H6.1875C5.80766 8.625 5.5 8.30336 5.5 7.90625V6.46875ZM5.5 12.2188C5.5 11.8216 5.80766 11.5 6.1875 11.5H13.0625C13.4423 11.5 13.75 11.8216 13.75 12.2188V13.6562C13.75 14.0534 13.4423 14.375 13.0625 14.375H6.1875C5.80766 14.375 5.5 14.0534 5.5 13.6562V12.2188ZM27.5 39.5312C27.5 39.9284 27.1923 40.25 26.8125 40.25H19.9375C19.5577 40.25 19.25 39.9284 19.25 39.5312V38.0938C19.25 37.6966 19.5577 37.375 19.9375 37.375H26.8125C27.1923 37.375 27.5 37.6966 27.5 38.0938V39.5312ZM27.5 21.5625V30.1875C27.5 30.9817 26.8847 31.625 26.125 31.625H6.875C6.11531 31.625 5.5 30.9817 5.5 30.1875V21.5625C5.5 20.7683 6.11531 20.125 6.875 20.125H26.125C26.8847 20.125 27.5 20.7683 27.5 21.5625Z" fill="white"/>
 					</svg>
 				</div>
-				<h1 class="font-medium text-xl mb-3 lg:px-14 text-darken">Online Billing, Invoicing, & Contracts</h1>
-				<p class="px-4 text-gray-500">Simple and secure control of your organization’s financial and legal transactions. Send customized invoices and contracts</p>
+				<h1 class="font-medium text-xl mb-3 lg:px-14 text-darken">Sites Profissionais e Responsivos</h1>
+				<p class="px-4 text-gray-500">Criamos websites modernos, otimizados para SEO e com design intuitivo, garantindo uma experiência de usuário impecável em qualquer dispositivo.</p>
 			</div>
 			<div data-aos="fade-up" data-aos-delay="150" class="bg-white shadow-modern p-6 text-center rounded-xl">
 				<div style="background: var(--primary-color);" class="rounded-full w-16 h-16 flex items-center justify-center mx-auto shadow-lg transform -translate-y-12">
@@ -147,8 +147,8 @@
 						<path d="M37.7143 37.7142H34.2857C33.3389 37.7142 32.5714 38.4817 32.5714 39.4285C32.5714 40.3754 33.3389 41.1429 34.2857 41.1429H37.7143C38.6611 41.1429 39.4286 40.3754 39.4286 39.4285C39.4286 38.4817 38.661 37.7142 37.7143 37.7142Z" fill="#F5F5FC"/>
 					</svg>
 				</div>
-				<h1 class="font-medium text-xl mb-3 lg:px-14 text-darken">Easy Scheduling & Attendance Tracking</h1>
-				<p class="px-4 text-gray-500">Schedule and reserve classrooms at one campus or multiple campuses. Keep detailed records of student attendance</p>
+				<h1 class="font-medium text-xl mb-3 lg:px-14 text-darken">Sistemas Sob Medida para Otimização</h1>
+				<p class="px-4 text-gray-500">Desenvolvemos sistemas web e aplicativos personalizados para automatizar processos, gerenciar dados e aumentar a eficiência operacional do seu negócio.</p>
 			</div>
 			<div data-aos="fade-up" data-aos-delay="300" class="bg-white shadow-modern p-6 text-center rounded-xl">
 				<div style="background: var(--secondary-color);" class="rounded-full w-16 h-16 flex items-center justify-center mx-auto shadow-lg transform -translate-y-12">
@@ -156,24 +156,24 @@
 						<path d="M8.25 19.25C11.2836 19.25 13.75 16.7836 13.75 13.75C13.75 10.7164 11.2836 8.25 8.25 8.25C5.21641 8.25 2.75 10.7164 2.75 13.75C2.75 16.7836 5.21641 19.25 8.25 19.25ZM46.75 19.25C49.7836 19.25 52.25 16.7836 52.25 13.75C52.25 10.7164 49.7836 8.25 46.75 8.25C43.7164 8.25 41.25 10.7164 41.25 13.75C41.25 16.7836 43.7164 19.25 46.75 19.25ZM49.5 22H44C42.4875 22 41.1211 22.6102 40.1242 23.5984C43.5875 25.4977 46.0453 28.9266 46.5781 33H52.25C53.7711 33 55 31.7711 55 30.25V27.5C55 24.4664 52.5336 22 49.5 22ZM27.5 22C32.8195 22 37.125 17.6945 37.125 12.375C37.125 7.05547 32.8195 2.75 27.5 2.75C22.1805 2.75 17.875 7.05547 17.875 12.375C17.875 17.6945 22.1805 22 27.5 22ZM34.1 24.75H33.3867C31.5992 25.6094 29.6141 26.125 27.5 26.125C25.3859 26.125 23.4094 25.6094 21.6133 24.75H20.9C15.4344 24.75 11 29.1844 11 34.65V37.125C11 39.4023 12.8477 41.25 15.125 41.25H39.875C42.1523 41.25 44 39.4023 44 37.125V34.65C44 29.1844 39.5656 24.75 34.1 24.75ZM14.8758 23.5984C13.8789 22.6102 12.5125 22 11 22H5.5C2.46641 22 0 24.4664 0 27.5V30.25C0 31.7711 1.22891 33 2.75 33H8.41328C8.95469 28.9266 11.4125 25.4977 14.8758 23.5984Z" fill="white"/>
 					</svg>
 				</div>
-				<h1 class="font-medium text-xl mb-3 lg:px-14 text-darken lg:h-14 pt-3">Customer Tracking</h1>
-				<p class="px-4 text-gray-500">Automate and track emails to individuals or groups. Skilline’s built-in system helps organize your organization </p>
+				<h1 class="font-medium text-xl mb-3 lg:px-14 text-darken lg:h-14 pt-3">Suporte e Consultoria Especializada</h1>
+				<p class="px-4 text-gray-500">Oferecemos consultoria estratégica e suporte técnico contínuo para garantir que suas soluções digitais estejam sempre atualizadas e performando no máximo.</p>
 			</div>
 		</div>
 
 		<!-- lorem -->
 		<div class="mt-28">
 			<div data-aos="flip-down" class="text-center max-w-screen-md mx-auto">
-				<h1 class="text-3xl font-bold mb-4">What is<span class="text-primary">Skilline?</span></h1>
-				<p class="text-gray-500">Skilline is a platform that allows educators to create online classes whereby they can store the course materials online; manage assignments, quizzes and exams; monitor due dates; grade results and provide students with feedback all in one place.</p>
+				<h1 class="text-3xl font-bold mb-4">O que é a <span class="text-primary">AnphaWeb?</span></h1>
+				<p class="text-gray-500">A AnphaWeb é uma empresa especializada em desenvolvimento de sites e sistemas personalizados, oferecendo soluções digitais completas para empresas de todos os portes e segmentos.</p>
 			</div>
 			<div data-aos="fade-up" class="flex flex-col md:flex-row justify-center space-y-5 md:space-y-0 md:space-x-6 lg:space-x-10 mt-7">
 				<div class="relative md:w-5/12">
 					<img class="rounded-2xl shadow-modern" src="img/Rectangle 19.png" alt="">
 					<div class="absolute bg-black bg-opacity-20 bottom-0 left-0 right-0 w-full h-full rounded-2xl">
 						<div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-							<h1 class="uppercase text-white font-bold text-center text-sm lg:text-xl mb-3">FOR INSTRUCTORS</h1>
-							<button class="btn-modern text-xs lg:text-md px-6 py-3 w-full font-medium">Start a class today</button>
+							<h1 class="uppercase text-white font-bold text-center text-sm lg:text-xl mb-3">PARA EMPRESAS</h1>
+							<button class="btn-modern text-xs lg:text-md px-6 py-3 w-full font-medium">Solicitar Orçamento</button>
 						</div>
 					</div>
 				</div>
@@ -181,8 +181,8 @@
 					<img class="rounded-2xl shadow-modern" src="img/Rectangle 21.png" alt="">
 					<div class="absolute bg-black bg-opacity-20 bottom-0 left-0 right-0 w-full h-full rounded-2xl">
 						<div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-							<h1 class="uppercase text-white font-bold text-center text-sm lg:text-xl mb-3">FOR STUDENTS</h1>
-							<button class="btn-modern text-xs lg:text-md px-6 py-3 w-full font-medium" style="background: var(--secondary-color)">Enter access code</button>
+							<h1 class="uppercase text-white font-bold text-center text-sm lg:text-xl mb-3">PARA FREELANCERS</h1>
+							<button class="btn-modern text-xs lg:text-md px-6 py-3 w-full font-medium" style="background: var(--secondary-color)">Conheça Nossos Serviços</button>
 						</div>
 					</div>
 				</div>
@@ -192,9 +192,9 @@
 		<div class="sm:flex items-center sm:space-x-8 mt-36">
 			<div data-aos="fade-right" class="sm:w-1/2 relative">
 				<div class="bg-primary rounded-full absolute w-12 h-12 z-0 -left-4 -top-3 animate-pulse"></div>
-				<h1 class="font-semibold text-2xl relative z-50 text-darken lg:pr-10">Everything you can do in a physical classroom, <span class="text-primary">you can do with Skilline</span></h1>
-				<p class="py-5 lg:pr-32 text-gray-500">Skilline’s school management software helps traditional and online schools manage scheduling, attendance, payments and virtual classrooms all in one secure cloud-based system.</p>
-				<a href="" class="underline text-primary">Learn More</a>
+				<h1 class="font-semibold text-2xl relative z-50 text-darken lg:pr-10">Tudo que você precisa para ter uma presença digital de sucesso, <span class="text-primary">você encontra na AnphaWeb</span></h1>
+				<p class="py-5 lg:pr-32 text-gray-500">Nossos serviços de desenvolvimento web e sistemas ajudam empresas tradicionais e digitais a gerenciar sua presença online, automatizar processos e otimizar operações em uma solução segura e baseada na nuvem.</p>
+				<a href="" class="underline text-primary">Saiba Mais</a>
 			</div>
 			<div data-aos="fade-left" class="sm:w-1/2 relative mt-10 sm:mt-0">
 				<div style="background: #23BDEE;" class="floating w-24 h-24 absolute rounded-lg z-0 -top-3 -left-3"></div>
@@ -394,7 +394,7 @@
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
                 <div>
                     <div class="flex items-center mb-6">
-                        <h1 class="font-bold text-xl pr-5 relative z-50">Skilline</h1>
+                        <h1 class="font-bold text-xl pr-5 relative z-50">AnphaWeb</h1>
                         <svg class="w-11 h-11 absolute -top-2 -left-3 z-40" viewBox="0 0 79 79" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M35.2574 2.24264C37.6005 -0.100501 41.3995 -0.100505 43.7426 2.24264L76.7574 35.2574C79.1005 37.6005 79.1005 41.3995 76.7574 43.7426L43.7426 76.7574C41.3995 79.1005 37.6005 79.1005 35.2574 76.7574L2.24264 43.7426C-0.100501 41.3995 -0.100505 37.6005 2.24264 35.2574L35.2574 2.24264Z" fill="#65DAFF"/>
                         </svg>
@@ -443,7 +443,7 @@
                         </li>
                         <li class="flex items-start space-x-3">
                             <i class="fas fa-envelope text-primary mt-1"></i>
-                            <span class="text-gray-300">contato@skilline.com.br</span>
+                            <span class="text-gray-300">contato@anphaweb.com.br</span>
                         </li>
                         <li class="flex items-start space-x-3">
                             <i class="fas fa-clock text-primary mt-1"></i>
@@ -454,7 +454,7 @@
             </div>
             
             <div class="border-t border-gray-700 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
-                <p class="text-gray-400 mb-4 md:mb-0">&copy; <span id="year"></span> Skilline. Todos os direitos reservados.</p>
+                <p class="text-gray-400 mb-4 md:mb-0">&copy; <span id="year"></span> AnphaWeb. Todos os direitos reservados.</p>
                 <div class="flex space-x-6">
                     <a href="#" class="text-gray-400 hover:text-primary transition">Termos de Serviço</a>
                     <a href="#" class="text-gray-400 hover:text-primary transition">Política de Privacidade</a>
